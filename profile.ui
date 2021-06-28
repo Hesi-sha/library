@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>profile</class>
+ <widget class="QMainWindow" name="profile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>925</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget
+{
+	border-image: url(:/img/C:/Users/DELTAcomputer/Desktop/lib1.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="BackBtn">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Back</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-4</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#BackBtn
+{
+border : 10px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/DELTAcomputer/Desktop/icons/329353.png</normaloff>C:/Users/DELTAcomputer/Desktop/icons/329353.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>55</width>
+          <height>55</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_7">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_10">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="InfoLabel">
+        <property name="styleSheet">
+         <string notr="true">#InfoLabel
+{
+font-size: 18px;
+    letter-spacing: -.00px;
+color : rgb(255, 127, 15);
+border : 2px solid white;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,1);
+    padding: 4px 8px;
+
+}</string>
+        </property>
+        <property name="text">
+         <string>Personal information</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QWidget" name="lay" native="true">
+        <property name="styleSheet">
+         <string notr="true">#lay
+{
+background-color : rgba(0, 0, 0,0.6);
+border : 1.25px solid black;
+border-radius : 7px;
+margin-right: 25;
+margin-left: 25;
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="topMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>10</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="FirstLabel">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#FirstLabel
+{
+color : white;
+margin-bottom:1px;
+margin-right: 25;
+margin-left: 25;
+}</string>
+             </property>
+             <property name="text">
+              <string>First Name :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="FirstLine">
+             <property name="styleSheet">
+              <string notr="true">#FirstLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin-right: 25;
+margin-left: 25;
+width: 100%;
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QLabel" name="LastLabel">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#LastLabel
+{
+color : white;
+margin-bottom:1px;
+margin-right: 25;
+margin-left: 25;
+}</string>
+             </property>
+             <property name="text">
+              <string>Last Name :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="LastLine">
+             <property name="styleSheet">
+              <string notr="true">#LastLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin-right: 25;
+margin-left: 25;
+width: 100%;
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="ChangeInfoBtn">
+             <property name="font">
+              <font>
+               <family>inherit</family>
+               <pointsize>-1</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#ChangeInfoBtn
+{
+color: black;
+background-color: rgb(255, 85, 0);
+display: block;
+    width: 100%;
+    text-align: center;
+transition: .2s cubic-bezier(.3,0,.5,1);
+transition-property: color,background-color,border-color;
+position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+font-family: inherit;
+user-select: none;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 6px;
+font: inherit;
+    margin: 0;
+box-sizing: border-box;
+    padding: 5px 0px;
+}
+
+#ChangeInfoBtn:hover
+{
+background-color: rgb(240, 40, 44);
+}</string>
+             </property>
+             <property name="text">
+              <string>Change</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_11">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>20</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="AccLabel">
+        <property name="styleSheet">
+         <string notr="true">#AccLabel
+{
+font-size: 18px;
+    letter-spacing: -.00px;
+color : rgb(255, 127, 15);
+border : 2px solid white;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,1);
+    padding: 2px 8px;
+
+}</string>
+        </property>
+        <property name="text">
+         <string>User account</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_9">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="bottomMargin">
+       <number>40</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QWidget" name="lay0" native="true">
+        <property name="styleSheet">
+         <string notr="true">#lay0
+{
+background-color : rgba(0, 0, 0,0.5);
+border : 1.25px solid black;
+border-radius : 7px;
+margin-right: 25;
+margin-left: 25;
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="topMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>10</number>
+         </property>
+         <property name="bottomMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QLabel" name="UserLabel">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#UserLabel
+{
+color : white;
+margin-bottom:1px;
+margin-right: 25;
+margin-left: 25;
+}</string>
+             </property>
+             <property name="text">
+              <string>Username :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="UserLine">
+             <property name="styleSheet">
+              <string notr="true">#UserLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin-right: 25;
+margin-left: 25;
+width: 100%;
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QLabel" name="OldLabel">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#OldLabel
+{
+color : white;
+margin-bottom:1px;
+margin-right: 25;
+margin-left: 25;
+}</string>
+             </property>
+             <property name="text">
+              <string>Old password:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="OldLine">
+             <property name="styleSheet">
+              <string notr="true">#OldLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin-right: 25;
+margin-left: 25;
+width: 100%;
+}</string>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <item>
+            <widget class="QLabel" name="NewLabel">
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#NewLabel
+{
+color : white;
+margin-bottom:1px;
+margin-right: 25;
+margin-left: 25;
+}</string>
+             </property>
+             <property name="text">
+              <string>New password :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="NewLine">
+             <property name="styleSheet">
+              <string notr="true">#NewLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin-right: 25;
+margin-left: 25;
+width: 100%;
+}</string>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <item>
+            <widget class="QLabel" name="ConfNewLabel">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#ConfNewLabel
+{
+color : white;
+margin-bottom:1px;
+margin-right: 25;
+margin-left: 25;
+}</string>
+             </property>
+             <property name="text">
+              <string>Confirm new password :</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="ConfNewLine">
+             <property name="styleSheet">
+              <string notr="true">#ConfNewLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin-right: 25;
+margin-left: 25;
+width: 100%;
+}</string>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <spacer name="horizontalSpacer_12">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="ChangeAccBtn">
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">#ChangeAccBtn
+{
+color: black;
+background-color: rgb(255, 85, 0);
+display: block;
+    width: 100%;
+    text-align: center;
+transition: .2s cubic-bezier(.3,0,.5,1);
+transition-property: color,background-color,border-color;
+position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+font-family: inherit;
+user-select: none;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 6px;
+font: inherit;
+    margin: 0;
+box-sizing: border-box;
+    padding: 5px 0px;
+}
+
+#ChangeAccBtn:hover
+{
+background-color: rgb(240, 40, 44);
+}</string>
+             </property>
+             <property name="text">
+              <string>Update</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_13">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>925</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
