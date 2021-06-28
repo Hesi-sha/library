@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>add</class>
+ <widget class="QMainWindow" name="add">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>925</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget
+{
+	border-image: url(:/img/C:/Users/DELTAcomputer/Desktop/lib1.jpg);
+}
+
+QRadioButton {
+    color: black;
+background-color : rgba(0, 0, 0,0.6);
+border : 1px solid red;
+border-radius : 7px;
+}
+
+QRadioButton::indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+}
+
+QRadioButton::indicator:checked {
+    background-color: red;
+    border: 2px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:  white;
+    border: 2px solid white;
+}
+
+QChechBox::indicator {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+QChechBox::indicator:checked {
+    background-color: red;
+    border: 2px solid red;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color:  white;
+    border: 1px solid black;
+}
+
+#QCheckBox
+ {
+    color: black;
+background-color : rgba(0, 0, 0,0.6);
+border : 1px solid red;
+border-radius : 7px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_27">
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="Back">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Back</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-3</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#Back
+{
+border : 100px;
+}</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/DELTAcomputer/Desktop/icons/329353.png</normaloff>C:/Users/DELTAcomputer/Desktop/icons/329353.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>55</width>
+          <height>55</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_25">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="reload">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Reload</string>
+        </property>
+        <property name="toolTipDuration">
+         <number>-3</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#reload
+{
+border : 10px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/DELTAcomputer/Desktop/IMG_9966.PNG</normaloff>C:/Users/DELTAcomputer/Desktop/IMG_9966.PNG</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>57</width>
+          <height>57</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_21">
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_23">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="AddingLabel">
+        <property name="font">
+         <font>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#AddingLabel
+{
+font-size: 19px;
+    letter-spacing: -.00px;
+color : white;
+border : 1.25px solid black;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,0.8);
+    padding: 5px 8px;
+
+}</string>
+        </property>
+        <property name="text">
+         <string>Adding Book</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_24">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_22">
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <property name="leftMargin">
+         <number>5</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>5</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_19">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="TitleLabel">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#TitleLabel
+{
+font-size: 15px;
+    letter-spacing: -.00px;
+color : white;
+border : 1.25px solid black;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,0.7);
+    padding: 2px 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Title :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="TitleLine">
+            <property name="font">
+             <font>
+              <family>inherit</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#TitleLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin: 0;
+width: 100%;
+}</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="AuthorLabel">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#AuthorLabel
+{
+font-size: 15px;
+    letter-spacing: -.00px;
+color : white;
+border : 1.25px solid black;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,0.7);
+    padding: 2px 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Author :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="AuthorLine">
+            <property name="styleSheet">
+             <string notr="true">#AuthorLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin: 0;
+width: 100%;
+}</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="PublisherLabel">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#PublisherLabel
+{
+font-size: 15px;
+    letter-spacing: -.00px;
+color : white;
+border : 1.25px solid black;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,0.65);
+    padding: 2px 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Publisher :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="PublisherLine">
+            <property name="styleSheet">
+             <string notr="true">#PublisherLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin: 0;
+width: 100%;
+}</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_16">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="DateLabel">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#DateLabel
+{
+font-size: 15px;
+    letter-spacing: -.00px;
+color : white;
+border : 1.25px solid black;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,0.6);
+    padding: 2px 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Publication Date :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="YearBox">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#YearBox
+{
+font-size: 15px;
+    letter-spacing: -.00px;
+color : white;
+border : 2 solid black;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,0.6);
+    padding: 2px 8px;
+}</string>
+            </property>
+            <property name="maxVisibleItems">
+             <number>5</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>Year</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1970</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1971</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1972</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1973</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1974</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1975</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1976</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1977</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1978</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1979</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1980</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1981</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1982</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1983</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1984</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1985</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1986</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1987</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1988</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1989</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1990</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1991</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1992</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1993</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1994</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1995</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1996</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1997</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1998</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1999</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2000</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2001</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2002</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2003</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2004</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2005</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2006</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2007</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2008</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2009</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2010</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2011</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2012</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2013</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2014</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2015</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2016</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2017</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2018</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2019</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2020</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2021</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_15">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="GenreLabel">
+            <property name="font">
+             <font>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#GenreLabel
+{
+font-size: 15px;
+    letter-spacing: -.00px;
+color : white;
+border : 1.25px solid black;
+border-radius : 7px;
+background-color : rgba(0, 0, 0,0.6);
+    padding: 2px 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Genre :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="lay1" native="true">
+            <property name="styleSheet">
+             <string notr="true">#lay1
+{
+background-color : rgba(0, 0, 0,0.6);
+border : 1px solid red;
+border-radius : 7px;
+}</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <property name="leftMargin">
+              <number>5</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>1</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="OtherCheck">
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#OtherCheck
+{
+color : white;
+margin-bottom:1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Other : </string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="OtherLine">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#OtherLine
+{
+border: 1px solid;
+border-radius: 6px;
+background-repeat: no-repeat;
+background-position: right 8px center;
+padding: 5px 12px;
+font-size: 14px;
+line-height: 20px;
+color : rgb(36, 41, 46);
+vertical-align: middle;
+background-color: rgb(255, 255, 255);
+font-family: inherit;
+font: inherit;
+margin: 0;
+width: 100%;
+}</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_26">
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="leftMargin">
+         <number>5</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>5</number>
+        </property>
+        <property name="bottomMargin">
+         <number>5</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_14">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="lay2" native="true">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>10</number>
+             </property>
+             <property name="rightMargin">
+              <number>1</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="1" column="0">
+              <widget class="QRadioButton" name="ComedyRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#ComedyRadio
+{
+color : white;
+padding : 1px 5px;
+
+}</string>
+               </property>
+               <property name="text">
+                <string>Comedy</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QRadioButton" name="HorrorRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#HorrorRadio
+{
+color : white;
+padding : 1px 5px;
+}</string>
+               </property>
+               <property name="text">
+                <string> Horror  </string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2">
+              <widget class="QRadioButton" name="ScienceRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>8</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#ScienceRadio
+{
+color : white;
+padding : 1px 5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Science Fiction</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QRadioButton" name="BioRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#BioRadio
+{
+color : white;
+padding : 1px 5px;
+}</string>
+               </property>
+               <property name="text">
+                <string> Biography    </string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QRadioButton" name="RomanceRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#RomanceRadio
+{
+color : white;
+padding : 1px 5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Romance </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QRadioButton" name="HistoricalRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#HistoricalRadio
+{
+color : white;
+padding : 1px 5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Historical</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QRadioButton" name="HelpRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#HelpRadio
+{
+color : white;
+padding : 1px 5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Self Help </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QRadioButton" name="MysteryRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#MysteryRadio
+{
+color : white;
+padding : 1px 5px;
+
+}</string>
+               </property>
+               <property name="text">
+                <string>Mystery</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QRadioButton" name="ComicRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#ComicRadio
+{
+color : white;
+padding : 1px 5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Comic Book  </string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QRadioButton" name="EducationRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#EducationRadio
+{
+color : white;
+padding : 1px 5px;
+background-color : rgba(0, 0, 0,0.6);
+border : 1px solid red;
+border-radius : 7px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Education</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QRadioButton" name="NovelRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#NovelRadio
+{
+color : white;
+padding : 1px 5px;
+background-color : rgba(0, 0, 0,0.6);
+border : 1px solid red;
+border-radius : 7px;
+}</string>
+               </property>
+               <property name="text">
+                <string>  Novel   </string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QRadioButton" name="PoetryRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#PoetryRadio
+{
+color : white;
+padding : 1px 5px;
+background-color : rgba(0, 0, 0,0.6);
+border : 1px solid red;
+border-radius : 7px;
+}</string>
+               </property>
+               <property name="text">
+                <string>  Poetry    </string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="2">
+              <widget class="QRadioButton" name="ChildRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>8</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#ChildRadio
+{
+color : white;
+padding : 1px 5px;
+background-color : rgba(0, 0, 0,0.6);
+border : 1px solid red;
+border-radius : 7px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Children Story</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QRadioButton" name="PhilsRadio">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#PhilsRadio
+{
+color : white;
+padding : 1px 5px;
+}</string>
+               </property>
+               <property name="text">
+                <string> Philosophy  </string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QRadioButton" name="FantasyRadio">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">#FantasyRadio
+{
+color : white;
+padding : 1px 5px;
+background-color : rgba(0, 0, 0,0.6);
+border : 1px solid red;
+border-radius : 7px;
+}</string>
+               </property>
+               <property name="text">
+                <string>Fantasy</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_20">
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_21">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="AddBookBtn">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#AddBookBtn
+{
+color: rgb(255, 255, 255);
+background-color: rgb(171, 5, 41);
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+font: inherit;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+#AddBookBtn:hover
+{
+background-color: rgb(145, 22, 26);
+}</string>
+        </property>
+        <property name="text">
+         <string>Add Book</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_22">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>925</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
