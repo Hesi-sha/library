@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>C:/Users/DELTAcomputer/Desktop/lib1.jpg</file>
+        <file>back.qrc</file>
+    </qresource>
+</RCC>

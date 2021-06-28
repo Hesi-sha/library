@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icone">
+        <file>C:/Users/DELTAcomputer/Desktop/well.PNG</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/search/3356923.png</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/search/3387882.png</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/search/3582391.png</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/search/book (3).png</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/search/book.png</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/edit/book (6).png</file>
+    </qresource>
+    <qresource prefix="/icones"/>
+    <qresource prefix="/">
+        <file>C:/Users/DELTAcomputer/Desktop/icons/add/add.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/book">
+        <file>C:/Users/DELTAcomputer/Desktop/icons/main/edit.PNG</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/main/remove.PNG</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/main/search.png</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/main/addd.PNG</file>
+        <file>C:/Users/DELTAcomputer/Desktop/icons/main/showall.png</file>
+    </qresource>
+</RCC>
